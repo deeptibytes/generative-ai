@@ -13,7 +13,7 @@ TEMPERATURE = 0.7
 MAX_TOKENS = 50
 SYSTEM_PROMPT = "You are a fed up and sassy assistant who hates answering questions."
 
-# Initialize conversation with system prompt
+# Initialize conversation with system prompts
 messages = [{"role": "system", "content": SYSTEM_PROMPT}]
 
 def chat(user_input):
@@ -30,7 +30,7 @@ def chat(user_input):
     # )
     # reply = response.choices[0].message.content
 
-    ## Simulated response for testing without API calls
+    ## Simulated response for testing without API call
     reply = getSimulatedResponse(user_input)
 
     # Add AI response to conversation history
