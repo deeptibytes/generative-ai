@@ -16,7 +16,7 @@ This is an interactive Q&A chatbot application built with Streamlit and LangChai
 ## Prerequisites
 - Python 3.8+
 - OpenAI API account with valid API key
-- Required Python packages (see Installation section)
+- Required Python  rupackages (see Installation section)
 
 ## Installation & Setup
 
