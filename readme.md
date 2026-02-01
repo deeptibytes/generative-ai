@@ -16,6 +16,11 @@ Navigate to any project by clicking on the links below:
 | **Document Chain** | Document processing and question-answering using LangChain document chains | [document-chain](./document-chain) |
 | **Retriever Chain** | Semantic search and retrieval-augmented generation (RAG) implementations | [retriever-chain](./retriever-chain) |
 | **Basic Chatbot** | Core chatbot implementation with fundamental LangChain patterns | [chatbot](./chatbot) |
+| **RAG Document Q&A** | Retrieval-Augmented Generation for document Q&A using Groq and OpenAI embeddings | [RAG_Document_Q&A](./RAG_Document_Q&A) |
+| **RAG Q&A Conversation** | Conversational RAG with PDF uploads and chat history using HuggingFace embeddings | [RAG_Q&A_Conversation](./RAG_Q&A_Conversation) |
+| **Text Summarization Video** | Extract and summarize YouTube video transcripts using yt-dlp and Groq | [text_summarization_video](./text_summarization_video) |
+| **Text Summarization in a Given Language** | Summarize speech content and translate to specified languages with Devanagari script | [text_summarization_in_a_given_language](./text_summarization_in_a_given_language) |
+| **Text Summarization from Document** | Demonstrate Stuff, Map-Reduce, and Refine summarization chains on PDF documents | [text_summarization_from_document](./text_summarization_from_document) |
 
 ## Quick Start
 
@@ -40,9 +45,16 @@ Navigate to any project by clicking on the links below:
 - [Basic Prompt](./basic-prompt) - Fundamentals of prompt engineering
 - [Prompt Chain](./prompt-chain) - Multi-step prompt workflows
 
-### RAG & Document Processing
+### RAG Projects
+- [RAG Document Q&A](./RAG_Document_Q&A) - Single-turn document Q&A with FAISS
+- [RAG Q&A Conversation](./RAG_Q&A_Conversation) - Multi-turn conversational RAG with chat history
 - [Document Chain](./document-chain) - Document Q&A systems
 - [Retriever Chain](./retriever-chain) - Semantic search and retrieval
+
+### Text Summarization Projects
+- [Text Summarization Video](./text_summarization_video) - YouTube video transcript summarization
+- [Text Summarization in a Given Language](./text_summarization_in_a_given_language) - Multilingual speech summarization
+- [Text Summarization from Document](./text_summarization_from_document) - Different summarization chain comparisons
 
 ### Legacy Projects
 - [Basic Chatbot](./chatbot) - Core implementation patterns
@@ -100,4 +112,4 @@ For questions or issues with specific projects, check the project's readme.md fi
 
 ---
 
-**Last Updated**: January 25, 2026
+**Last Updated**: January 31, 2026
